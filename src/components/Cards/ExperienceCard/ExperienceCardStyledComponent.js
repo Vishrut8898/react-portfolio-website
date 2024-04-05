@@ -23,6 +23,17 @@ export const Description = styled.div`
     }
 `
 
+export const List = styled.li`
+    margin-bottom: 6px;
+    list-style-type: disc;
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+`
+
 export const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;

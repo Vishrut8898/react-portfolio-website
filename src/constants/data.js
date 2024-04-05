@@ -7,10 +7,10 @@ export const Bio = {
     "Software Engineer",
   ],
   description:
-    "With over 2 years of experience, I excel in ReactJS, JavaScript, and Responsive Web Design. My proficiency in these areas consistently exceeds client expectations. I specialize in developing website modules from inception to production, ensuring code is well-structured and scalable. Committed to delivering exceptional user experiences, I work closely with clients to understand their goals. Known for attention to detail and proactive problem-solving, I have a track record of on-time, on-budget project delivery. I stay abreast of industry trends to provide outstanding results.",
+    "With over 2+ years of experience, I excel in ReactJS, JavaScript, and Responsive Web Design. My proficiency in these areas consistently exceeds client expectations. I specialize in developing website modules from scratch to production, ensuring code is well-structured and scalable. Committed to delivering exceptional user experiences, I work closely with clients to understand their goals. Known for attention to detail and proactive problem-solving, I have a track record of on-time, on-budget project delivery. I stay abreast of industry trends to provide outstanding results.",
   github: "https://github.com/Vishrut8898",
   resume:
-    "https://drive.google.com/file/d/1Zb4NHzRJYYiDSsI1bKXKd6Bhpd_EA80Q/view?usp=sharing",
+    "https://drive.google.com/file/d/1jtKaLoKSMlxSCFNh0wDTFZP9FCk_gBdN/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vishrutmargam",
   twitter: "https://twitter.com/VishrutMargam",
   insta: "https://www.instagram.com/vishrutmargam/",
@@ -153,14 +153,16 @@ export const experiences = [
     role: "Front-End Developer",
     company: "Axioned - IT Services and IT Consulting",
     date: "Oct 2021 - April 2024",
-    desc: `Role and Expertise: ReactJS developer specializing in designing responsive UI screens. 
-    Front-End and Back-End Integration: Implemented seamless communication between Front-End and Back-End through API integrations. 
-    Module Development: Developed and enhanced multiple web app modules independently.Successfully completed various EPIC and USER STORIES. 
-    Team Collaboration: Actively participated as a team player, ensuring timely delivery of critical modules.Contributed to successful production releases. 
-    Adaptability: Ability to work independently in a fast - paced environment. 
-    Client Interaction: Worked closely with clients and business partners to understand and address business requirements. 
-    Agile Development :Planned and estimated story point tickets in Agile - based development using Jira. 
-    Bug Maintenance: Maintained and fixed bugs throughout the application, ensuring software quality.`,
+    desc: [
+      'Role and Expertise: ReactJS developer specializing in designing responsive UI screens.',
+      'Front-End and Back-End Integration: Implemented seamless communication between Front-End and Back-End through API integrations.',
+      'Module Development: Developed and enhanced multiple web app modules independently. Successfully completed various EPIC and USER STORIES.',
+      'Team Collaboration: Actively participated as a team player, ensuring timely delivery of critical modules. Contributed to successful production releases.',
+      'Adaptability: Ability to work independently in a fast-paced environment.',
+      'Client Interaction: Worked closely with clients and business partners to understand and address business requirements.',
+      'Agile Development: Planned and estimated story point tickets in Agile-based development using Jira.',
+      'Bug Maintenance: Maintained and fixed bugs throughout the application, ensuring software quality.'
+    ],
     skills: [
       "HTML",
       "CSS",
@@ -285,7 +287,7 @@ export const projects = [
     webapp: "https://money-tracker-js-app.netlify.app/",
   },
   {
-    id:6,
+    id: 6,
     title: "Tap Sounds",
     date: "April 2024",
     description: "Tap Sounds web app, where rhythm meets creativity in the palm of your hand.",

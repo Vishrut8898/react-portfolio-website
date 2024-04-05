@@ -1,5 +1,5 @@
 import React from 'react'
-import { Document, Card, Top, Image, Body, Role, Company, Date, Description, Span, Skills, ItemWrapper, Skill } from './ExperienceCardStyledComponent'
+import { Document, Card, Top, Image, Body, Role, Company, Date, Description, Span, List, Skills, ItemWrapper, Skill } from './ExperienceCardStyledComponent'
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -13,10 +13,11 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
+                <ul>
+                    {experience?.desc.map((ex, i) => {
+                        return <List key={`list-${i}`}>{ex}</List>
+                    })}
+                </ul>
                 {experience?.skills &&
                     <>
                         <br />
